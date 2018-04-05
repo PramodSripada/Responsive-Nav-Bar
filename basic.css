@@ -1,0 +1,42 @@
+.container>li {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+    box-sizing: border-box;
+    background-color: #96ceb4;
+    list-style-type: none;
+}
+
+html,
+body {
+    background-color: #fff;
+    margin: 10px;
+}
+
+.container {
+    padding: 0;
+}
+
+.search-input {
+    background: #ff6e68;
+    border: 0;
+    width: 100%;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #004D40;
+    color: #E65100;
+}
+
+::placeholder {
+    color: #004D40;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.container>li {
+    background-color: #00E5FF;
+}

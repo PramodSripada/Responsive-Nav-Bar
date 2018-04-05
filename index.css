@@ -1,0 +1,8 @@
+.container {
+    border: 3px solid #00B8D4;
+    display: flex;
+}
+
+.search {
+    flex: 1;
+}
